@@ -9,7 +9,7 @@
 -- azul: #002f52;
 }
 
-    body  { 
+    body  {
             background-color: var(--cor-de-fundo);
             font-family: var(--fonte-principal);
             font-size: 16px;
@@ -23,8 +23,8 @@
         background-image: no-repeat;
         background-position: center;
     }
-    
-    .cabeçalho { 
+
+    .cabeçalho {
         background-color: var(--rosa);
         display: flex;
         justify-content: space-between;
@@ -40,18 +40,63 @@
     .container_imagem {
         padding: 1em;
     }
-    
+
     .lista-menu {
         display: none;
         position: absolute;
         top: 100%;
         width: 60vw;
     }
-     
-    .container_botao:checked ~ .lista-menu { 
+
+    .container_botao:checked ~ .lista-menu {
         display: block;
     }
 
     .lista-menu_titulo,
-    .lista-menu_titulo  
-    
+    .lista-menu_titulo
+
+       background-color:(--branco);
+     }
+
+     .lista-menu_titulo, {
+        color: var(--laranja);
+        font-weight: 700;
+      }
+
+      .lista-menu_link {
+            background:  var(--rosa);
+             -webkit-background-clip:text;
+             -webkit-tet-ill-color:tranparente;
+             background:tranorm:uppercase;
+
+           }
+
+        .container_botao {
+          display:none;
+        }
+
+      .banner {
+         background: var(--rosa);
+         color:  var(--branco);
+         text-align: center;
+         pading:2.5em 2em;
+       }
+
+       .banner_titulo {
+         font-size: 18px;
+         font-weight: 700;
+       }
+
+       .banner_texto {
+          font-weight: 500;
+          margin: 1em 0;
+        }
+
+    .banner__pesquisa {
+      background-color:  tranparente;
+      border: 1px solid var(--branco);
+      color: var(--branco);
+      border-radius: 24px;
+      padding: 1em;
+      width: 100%;
+    }
