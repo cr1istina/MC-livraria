@@ -19,7 +19,8 @@
     .cabeçalho_manu-hamburguer {
         width: 24px;
         height:24px;
-        display: inline-block  
+        display: inline-block;
+        
         background-image: url("../img/menu.svg");
         background-image: no-repeat;
         background-position: center;
@@ -56,10 +57,11 @@
     .lista-menu_titulo,
     .lista-menu_titulo {
 
-       background-color:(--branco);
+       background-color:(--azul);
      }
 
-     .lista-menu_titulo, {
+     .lista-menu_titulo {
+      
         color: var(--laranja);
         font-weight: 700;
       }
@@ -67,8 +69,9 @@
       .lista-menu_link {
             background:  var(--rosa);
              -webkit-background-clip:text;
-             -webkit-tet-ill-color: tranparente;
-             background:tranorm:uppercase;
+             -webkit-text-fill-color: transparent ;
+             background-clip: text;
+             text-transform: uppercase;
 
            }
 
@@ -80,8 +83,8 @@
          background: var(--rosa);
          color:  var(--branco);
          text-align: center;
-         padding: ;
-         pading:2.5em 2em;
+         padding: 2.5em 2em ;
+        
        }
 
        .banner_titulo {
@@ -95,7 +98,7 @@
         }
 
     .banner__pesquisa {
-      background-color:  tranparente;
+      background-color: transparent ;
       border: 1px solid var(--branco);
       color: var(--branco);
       border-radius: 24px;
@@ -104,7 +107,7 @@
     }
 
     .banner__pesquisa::placeholder {
-       font-family: var(--fonte principal);
+       font-family: var(--fonte-principalprincipal);
        font-size : 14px;
       font-weight :400;
       text-align: center ;
@@ -201,7 +204,70 @@
       padding: 1em o;
 
     }
-      
-      
-      
-      
+     .topicos__titulo {
+      color: var(--rosa);
+      font-weight: 300;
+      margin-bottom: 1em;
+     } 
+     
+     .topicos__lista {
+      display: flex;
+      flex-wrap: wrap;
+       justify-content: center;
+     }
+     
+     .topicos__item {
+      margin: 2em 0.5em;
+     }
+
+     .topicos__link {
+      color: var(--branco);
+      padding: 1em;
+      background-color: var(--rosa);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+     }
+
+     .contato { 
+      background-color: var(--branco);
+      padding: 1em;
+     }
+     .contato__titulo,
+     .contato__texto {
+      background:var(--rosa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+     }
+    .contato__titulo {
+    font-size: 18px;
+     font-weight: 500; 
+    }
+
+    .contato__texto {
+    font-weight: 300;  
+    margin: 1em 0;
+    }
+
+    .contato_email {
+     padding: 1em;
+    border: 1px solid var(--rosa);
+    border-radius:24px;
+    width: 90%;
+    color: var(--branco)
+    }
+
+    .contato__email::placeholder {
+      font-family: var(--fonte-principal);
+      color :var(--azul);
+      background: url("../img/Email.svg")no-repeat 5%;
+      padding-left: 2em;
+    }
+    hr {
+      margin: 0%;
+    }
+   .rodape {
+   background-attachment: var(--branco);
+   padding: 1em;
+   }
