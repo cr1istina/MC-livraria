@@ -16,7 +16,7 @@
             font-size: 16px;
             font-weight: 400;
     }
-    .cabeçalho_manu-hamburguer {
+    .cabecalho_manu-hamburguer {
         width: 24px;
         height:24px;
         display: inline-block;
@@ -26,7 +26,7 @@
         background-position: center;
     }
 
-    .cabeçalho {
+    .cabecalho {
         background-color: var(--rosa);
         display: flex;
         justify-content: space-between;
@@ -150,7 +150,7 @@
       padding: 1em;
     }
 
-    .card_descriaçao {
+    .card_descriacao {
       display: flex;
       justify-content: space-between;
       margin-bottom: 0.5em;
